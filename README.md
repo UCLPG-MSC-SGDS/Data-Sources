@@ -69,6 +69,9 @@ The occurrence dataset used in this paper was originally from the [Global Compen
 
 The first two scripts are available for users for perusal to see what was behind the data cleaning and extraction processes in RStudio and GEE. The raw datasets were no provided as their storage size exceeds 150MB. Processed datasets have been included to this repository - please follow the instructions in the third script to reproduce the results shown in our research article in RStudio.  
 
+#### Funding
+This research was conducted under the project titled: **Mosquito populations modelling for early warning system and rapid public health response (MEWAR)**. This research through the Belmont Forum was supported in the United Kingdom by UKRI NERC under the grant NE/T013664/1, and in Turkey by TÜBITAK under the grant 119N373. This work was supported in Brazil by FAPESP under the grants 2019/23553-1 and 2020/11567-5, and by the Coordenação de Aperfeiçoamento de Pessoal de Nível Superior—Brasil (CAPES)—Finance Code 001. 
+
 #### Creative Commons Attribution-ShareAlike 4.0 International License
 Shield: [![CC BY-SA 4.0][cc-by-sa-shield]][cc-by-sa]
 
