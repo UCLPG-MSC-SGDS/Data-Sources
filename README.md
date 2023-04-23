@@ -5,7 +5,7 @@ This paper has been accepted in the [Frontiers in Tropical Diseases][accepted]. 
 
 [accepted]: https://www.frontiersin.org/articles/10.3389/fitd.2023.1039735/abstract
 
-### Shapefiles
+#### Shapefiles
 1.) Level 0: Country's border for Brazil (gadm36_BRA_0.shp) <br/>
 2.) Level 1: Boundaries for the 27 states in Brazil (gadm36_BRA_1.shp)
 
@@ -13,7 +13,7 @@ The shapefiles can be downloaded from [Global Administrative Areas Database (GAD
 
 [gadm]: https://gadm.org/download_country.html
 
-### Rasters
+#### Rasters
 All gridded datasets have been prepared, resampled and standardised to a uniform resolution (i.e., 2.5 arcmins (equivalent to 4.5 km)). 
 
 1.) Brazilian population density in 2013 (Brazil Population Density 2013.tif) <br/>
@@ -48,7 +48,7 @@ All socioeconomic, environmental and climate-based raster datasets for Brazil ar
 [gee]: https://earthengine.google.com
 [usgs]: https://earthexplorer.usgs.gov/
 
-### Point dataset
+#### Point dataset
 1.) Aedes aegypti occurrence dataset for Brazil in 2013 (Aedes Occurrences in 2013.csv)
 2.) Random generated pseudo-background point dataset was used as controls (Background points.csv)
 
@@ -57,7 +57,7 @@ The occurrence dataset used in this paper was originally from the [Global Compen
 [gbif]: https://www.gbif.org/dataset/d4eb19bc-fdce-415f-9a61-49b036009840
 [aedes]: https://www.nature.com/articles/sdata201535
 
-## Creative Commons Attribution-ShareAlike 4.0 International License
+#### Creative Commons Attribution-ShareAlike 4.0 International License
 Shield: [![CC BY-SA 4.0][cc-by-sa-shield]][cc-by-sa]
 
 This work is licensed under a
