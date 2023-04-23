@@ -9,9 +9,14 @@ This paper has been accepted in the [Frontiers in Tropical Diseases][accepted]. 
 1.) Level 0: Country's border for Brazil (gadm36_BRA_0.shp) <br/>
 2.) Level 1: Boundaries for the 27 states in Brazil (gadm36_BRA_1.shp)
 
-The shapefiles can be downloaded from [Global Administrative Areas Database (GADM)][gadm]. All shapefile data for Brazil are contained in the zipped folder "**Shapefile.zip**". 
+The shapefiles can be downloaded from [Global Administrative Areas Database (GADM)][gadm]. All shapefile data for Brazil are contained in the zipped folder "**Shapefile.zip**".
+
+3.) Tiled Shapefiles (Tiled_Region_Brazil.shp)
+
+**IMPORTANT NOTE**: The tiled shapefiles are squared polygons used to clip large rasters to a tenable size that is acceptable for extractions and downloading via [Google Earth Engine][gee]. The square polygons for Brazil were based on dimensions of the downloadable raster tiles from [Global Forest Change 2000–2021 Data][gfc]. Please refer to its usage in the important note section below under NDVI and consult the text file labelled "**Python code for extracting NDVI via GEE.txt**"
 
 [gadm]: https://gadm.org/download_country.html
+[gfc]: https://data.globalforestwatch.org/documents/a400422d410b4c158f499b5dbf7a7c66/explore
 
 #### Rasters
 All gridded datasets have been prepared, resampled and standardised to a uniform resolution (i.e., 2.5 arcmins (equivalent to 4.5 km)). 
