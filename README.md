@@ -1,12 +1,11 @@
 # Coalescing disparate data sources for the geospatial prediction of mosquito abundance, using Brazil as a motivating case study
 
-This paper has been accepted in the [Frontiers in Tropical Diseases][accepted]. The final, formatted version of the article will be published soon.
+## Information
+This paper has been accepted in the [Frontiers in Tropical Diseases][accepted]. The final, formatted version of the article will be published soon. This repository contains the datasets used to reproduce the results for the above titled research article. These were provided as supplementary materials and were made freely available through our GitHub repository. Refer to the R script labelled as "**R code for MAXENT analysis and outputs.R**" in order to reproduce the analysis of this paper in RStudio. Please note that all datasets used for this analysis are open source. All links and references to the datasets used for this analysis were explicitly mentioned in our research article. Nevertheless, we provide the location(s) of where they can be accessed and downloaded:
 
 [accepted]: https://www.frontiersin.org/articles/10.3389/fitd.2023.1039735/abstract
 
-<br/>This repository contains the datasets used to produce the results for the above titled research article. These were provided as supplementary materials and were made freely available through our GitHub repository. Please note that all datasets used for this analysis are open source. All links and references to the datasets used for this analysis were explicitly mentioned in our research article. Nevertheless, we provide the location(s) of where they can be accessed and downloaded:
-
-## Shapefiles
+### Shapefiles
 1.) Level 0: Country's border for Brazil (gadm36_BRA_0.shp) <br/>
 2.) Level 1: Boundaries for the 27 states in Brazil (gadm36_BRA_1.shp)
 
@@ -14,7 +13,7 @@ The shapefiles can be downloaded from [Global Administrative Areas Database (GAD
 
 [gadm]: https://gadm.org/download_country.html
 
-## Rasters
+### Rasters
 All gridded datasets have been prepared, resampled and standardised to a uniform resolution (i.e., 2.5 arcmins (equivalent to 4.5 km)). 
 
 1.) Brazilian population density in 2013 (Brazil Population Density 2013.tif) <br/>
@@ -42,17 +41,18 @@ This dataset was downloaded from the [STRM 90.0m DEM Digital Elevation Database]
 
 We used the MOD13A1.061 Terra Vegetation Indices 16-Day Global 500m to compute the NDVI estimates for Brazil in 2013 using [USGS Earth Explorer][usgs]. 
 
-**IMPORTANT NOTE**: Extracting the NDVI data was a highly involved process especially for a large region. It is highly recommended to perform the extraction through [Google Earth Engine][gee] using bespoke Python code. In addition, for large regions, it is best to extract the NDVI data on a tile-by-tile basis in a recursive loop. Please refer to the Python script (i.e., see text file labelled "**Python code for extracting NDVI via GEE.txt**") for extracting NDVI via [Google Earth Engine][gee] and use the "Tiled_Region_Brazil.shp" shapefile (see zipped folder labelled "Tiled Shapefiles.zip"). Note that you will need to create a Google Account to implement the code in an code editor hosted on [Google Earth Engine][gee]. The downloads will send the tiles as .tif files to your Google Drive which you can download locally to your computer. Finally, you will need to stitch the tiles accordingly to form the country in GIS software (e.g., R, QGIS, ArcGIS etc.,).
+**IMPORTANT NOTE**: Extracting the NDVI data was a highly involved process especially for a large region. It is highly recommended to perform the extraction through [Google Earth Engine][gee] using bespoke Python code. In addition, for large regions, it is best to extract the NDVI data on a tile-by-tile basis in a recursive loop. Please refer to the Python script (i.e., see text file labelled "**Python code for extracting NDVI via GEE.txt**") for extracting NDVI via [Google Earth Engine][gee] and use the "Tiled_Region_Brazil.shp" shapefile (see zipped folder labelled "Tiled Shapefiles.zip"). Note that you will need to create a Google Account to implement the code in an code editor hosted on [Google Earth Engine][gee]. The downloads will send the tiles as .tif files to your Google Drive which you can download locally to your computer. Finally, you will need to stitch the tiled .tif files back accordingly to form the country in GIS software (e.g., R, QGIS, ArcGIS etc.,).
 
 All socioeconomic, environmental and climate-based raster datasets for Brazil are contained in the zipped folder "**Gridded Datasets.zip**".
 
 [gee]: https://earthengine.google.com
 [usgs]: https://earthexplorer.usgs.gov/
 
-## Point dataset
+### Point dataset
 1.) Aedes aegypti occurrence dataset for Brazil in 2013 (Aedes Occurrences in 2013.csv)
+2.) Random generated pseudo-background point dataset was used as controls (Background points.csv)
 
-The dataset used in this paper was originally from the [Global Compendium of the Aedes species project][aedes] which is open source database and accessible via [Global Biodiversity Information Facility (GBIF)][gbif]
+The occurrence dataset used in this paper was originally from the [Global Compendium of the Aedes species project][aedes] which is open source database and accessible via [Global Biodiversity Information Facility (GBIF)][gbif]
 
 [gbif]: https://www.gbif.org/dataset/d4eb19bc-fdce-415f-9a61-49b036009840
 [aedes]: https://www.nature.com/articles/sdata201535
