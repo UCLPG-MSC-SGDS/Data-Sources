@@ -10,12 +10,12 @@ This paper has been accepted in the [Frontiers in Tropical Diseases][accepted]. 
 1.) Level 0: Country's border for Brazil (gadm36_BRA_0.shp) <br/>
 2.) Level 1: Boundaries for the 27 states in Brazil (gadm36_BRA_1.shp)
 
-The shapefiles can be downloaded from [Global Administrative Areas Database (GADM)][gadm]. All shapefile data from Brazil are contained in the zipped folder "Shapefile.zip". 
+The shapefiles can be downloaded from [Global Administrative Areas Database (GADM)][gadm]. All shapefile data for Brazil are contained in the zipped folder "**Shapefile.zip**". 
 
 [gadm]: https://gadm.org/download_country.html
 
 ## Rasters
-All gridded datasets have been prepared, resampled and standardised to a uniform resolution (i.e., 2.5 arcmins (equivalent to 4.5 km)) 
+All gridded datasets have been prepared, resampled and standardised to a uniform resolution (i.e., 2.5 arcmins (equivalent to 4.5 km)). 
 
 1.) Brazilian population density in 2013 (Brazil Population Density 2013.tif) <br/>
 2.) Brazilian urbanisation in 2013 (Brazil Urbanisation 2013.tif) <br/>
@@ -43,6 +43,8 @@ This dataset was downloaded from the [STRM 90.0m DEM Digital Elevation Database]
 We used the MOD13A1.061 Terra Vegetation Indices 16-Day Global 500m to compute the NDVI estimates for Brazil in 2013 using [USGS Earth Explorer][usgs]. 
 
 **IMPORTANT NOTE**: Extracting the NDVI data was a highly involved process especially for a large region. It is highly recommended to perform the extraction through [Google Earth Engine][gee] using bespoke Python code. In addition, for large regions, it is best to extract the NDVI data on a tile-by-tile basis in a recursive loop. Please refer to the Python script for extracting NDVI via [Google Earth Engine][gee] and use the "Tiled_Region_Brazil.shp" shapefile. Note that you will need to create a Google Account to implement the code in an code editor hosted on [Google Earth Engine][gee]. The downloads will send the tiles as .tif files to your Google Drive which you can download locally to your computer. Finally, you will need to stitch the tiles accordingly to form the country in GIS software (e.g., R, QGIS, ArcGIS etc.,).
+
+All socioeconomic, environmental and climate-based raster datasets for Brazil are contained in the zipped folder "**Gridded Datasets.zip**".
 
 [gee]: https://earthengine.google.com
 [usgs]: https://earthexplorer.usgs.gov/
