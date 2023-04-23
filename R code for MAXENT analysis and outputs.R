@@ -140,7 +140,7 @@ par(mfrow=c(2,2))
 # create a list() object to dump results inside `eMAX`
 eMAX<-list()
 
-# use california_fires_env
+# use aedes_points_env
 # use background_points_env
 folds <- 4
 
@@ -148,7 +148,7 @@ kfold_pres <- kfold(aedes_points_env, folds)
 kfold_back <- kfold(background_points_env, folds)
 
 set.seed(20000430)
-# adapting loop code from https://rpubs.com/mlibxmda/GEOG70922_Week5
+# use a recurse loop code for this
 # takes a long time to run 4-fold
 for (i in 1:folds) {
 	train <- aedes_points_env[kfold_pres!= i,]
