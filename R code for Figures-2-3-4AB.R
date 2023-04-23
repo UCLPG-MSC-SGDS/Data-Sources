@@ -3,12 +3,13 @@ rm(list = ls())
 gc()
 
 # MAXENT modelling
+# Before using 'rJava' make sure the 'Java' application is installed on computer go to: https://www.java.com/en/
 ## load following packages
 library("raster")
 library("dismo")
 library("tmap")
 library("sf")
-library("rJava")
+library("rJava") 
 library("sp")
 
 ## set working directory to location of datasets
