@@ -10,7 +10,7 @@ This paper has been accepted in the [Frontiers in Tropical Diseases][accepted]. 
 1.) Level 0: Country's border for Brazil (gadm36_BRA_0.shp) <br/>
 2.) Level 1: Boundaries for the 27 states in Brazil (gadm36_BRA_1.shp)
 
-The shapefiles can be downloaded from [Global Administrative Areas Database (GADM)][gadm]
+The shapefiles can be downloaded from [Global Administrative Areas Database (GADM)][gadm]. All shapefile data from Brazil are contained in the zipped folder "Shapefile.zip". 
 
 [gadm]: https://gadm.org/download_country.html
 
