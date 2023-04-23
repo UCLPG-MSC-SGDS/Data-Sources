@@ -49,7 +49,7 @@ All socioeconomic, environmental and climate-based raster datasets for Brazil ar
 [usgs]: https://earthexplorer.usgs.gov/
 
 #### Point dataset
-1.) Aedes aegypti occurrence dataset for Brazil in 2013 (Aedes Occurrences in 2013.csv)
+1.) Aedes aegypti occurrence dataset for Brazil in 2013 (Aedes Occurrences in 2013.csv) <br/>
 2.) Random generated pseudo-background point dataset was used as controls (Background points.csv)
 
 The occurrence dataset used in this paper was originally from the [Global Compendium of the Aedes species project][aedes] which is open source database and accessible via [Global Biodiversity Information Facility (GBIF)][gbif]
