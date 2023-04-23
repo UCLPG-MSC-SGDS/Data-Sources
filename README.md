@@ -27,7 +27,7 @@ These three datasets can be downloaded from [WorldPop database][worldpop]
 4.) Averaged annual precipitation in Brazil in 2013 (Brazil Annual Precipitation 2013.tif) <br/>
 5.) Averaged annual temperature in Brazil in 2013 (Brazil Annual Temperature 2013.tif)
 
-These two datasets can be downloaded from historical monthly data from the [WorldClim database][worldclim]
+These two datasets can be downloaded from historical monthly data from the [WorldClim database][worldclim]. Note: The monthly measures for minimum and maximum temperature were combined to form grids for overall temperature.
 
 [worldclim]: https://www.worldclim.org/data/monthlywth.html
 
