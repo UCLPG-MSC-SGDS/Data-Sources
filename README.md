@@ -2,7 +2,7 @@
 
 This paper has been accepted in the [Frontiers in Tropical Diseases][accepted]. The final, formatted version of the article will be published soon.
 
-[accepted]: https://www.frontiersin.org/articles/10.3389/fitd.2023.1039735/abstract]
+[accepted]: https://www.frontiersin.org/articles/10.3389/fitd.2023.1039735/abstract
 
 <br/>This repository contains the datasets used to produce the results for the above titled research article. These were provided as supplementary materials and were made freely available through our GitHub repository. Please note that all datasets used for this analysis are open source. All links and references to the datasets used for this analysis were explicitly mentioned in our research article. Nevertheless, we provide the location(s) of where they can be accessed and downloaded:
 
