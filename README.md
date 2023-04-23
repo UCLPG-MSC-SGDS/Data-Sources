@@ -52,7 +52,7 @@ We used the MOD13A1.061 Terra Vegetation Indices 16-Day Global 500m to compute t
 
 The dataset used in this paper was originally from the [Global Compendium of the Aedes species project][aedes] which is open source database and accessible via [Global Biodiversity Information Facility (GBIF)][gbif]
 
-[gbif]: https://www.gbif.org
+[gbif]: https://www.gbif.org/dataset/d4eb19bc-fdce-415f-9a61-49b036009840
 [aedes]: https://www.nature.com/articles/sdata201535
 
 ## Creative Commons Attribution-ShareAlike 4.0 International License
