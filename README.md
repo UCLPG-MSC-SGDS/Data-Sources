@@ -1,4 +1,4 @@
-# Coalescing disparate data sources for the geospatial prediction of mosquito abundance, using Brazil as a motivating case study
+# Supplementary materials: Coalescing disparate data sources for the geospatial prediction of mosquito abundance, using Brazil as a motivating case study
 
 ## Information
 This paper has been accepted in the [Frontiers in Tropical Diseases][accepted]. The final, formatted version of the article will be published soon. This repository contains the datasets used to reproduce the results for the above titled research article. These were provided as supplementary materials and were made freely available through our GitHub repository. Refer to the R script labelled as "**R code for MAXENT analysis and outputs.R**" in order to reproduce the analysis of this paper in RStudio. Please note that all datasets used for this analysis are open source. All links and references to the datasets used for this analysis were explicitly mentioned in our research article. Nevertheless, we provide the location(s) of where they can be accessed and downloaded:
