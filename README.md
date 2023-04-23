@@ -36,6 +36,29 @@ This dataset was downloaded from the [STRM 90.0m DEM Digital Elevation Database]
 
 7.) Averaged normalised differenced vegetation index (NDVI) for Brazil in 2013 (Brazil NDVI 2013.tif)
 
-We used the MOD13A1.061 Terra Vegetation Indices 16-Day Global 500m for this analysis. Please note that extracting the NDVI data was a highly involved process especially for a large region. It is highly recommended to perform the extraction through [Google Earth Engine][gee] using bespoke Python code. In addition, for large regions, it is best to extract the NDVI data on a tile-by-tile basis in a recursive loop. Please refer to the Python script for extracting NDVI via [Google Earth Engine][gee] and use the "Tiled_Region_Brazil.shp" shapefile. Note that you will need to create a Google Account to implement the code in an code editor hosted on [Google Earth Engine][gee]. The downloads will send the tiles as .tif files to your Google Drive which you can download locally to your computer. Finally, you will need to stitch the tiles accordingly to form the country in GIS software (e.g., R, QGIS, ArcGIS etc.,).
+We used the MOD13A1.061 Terra Vegetation Indices 16-Day Global 500m to compute the NDVI estimates for Brazil in 2013 using [USGS Earth Explorer][usgs]. 
+
+**IMPORTANT NOTE**: Extracting the NDVI data was a highly involved process especially for a large region. It is highly recommended to perform the extraction through [Google Earth Engine][gee] using bespoke Python code. In addition, for large regions, it is best to extract the NDVI data on a tile-by-tile basis in a recursive loop. Please refer to the Python script for extracting NDVI via [Google Earth Engine][gee] and use the "Tiled_Region_Brazil.shp" shapefile. Note that you will need to create a Google Account to implement the code in an code editor hosted on [Google Earth Engine][gee]. The downloads will send the tiles as .tif files to your Google Drive which you can download locally to your computer. Finally, you will need to stitch the tiles accordingly to form the country in GIS software (e.g., R, QGIS, ArcGIS etc.,).
 
 [gee]: https://earthengine.google.com
+[usgs]: https://earthexplorer.usgs.gov/
+
+## Point dataset
+1.) Aedes aegypti occurrence dataset for Brazil in 2013 (Aedes Occurrences in 2013.csv)
+
+The dataset used in this paper was originally from the [Global Compendium of the Aedes species project][aedes] which is open source database and accessible via [Global Biodiversity Information Facility (GBIF)][gbif]
+
+[gbif]: https://www.gbif.org
+[aedes]: https://www.nature.com/articles/sdata201535
+
+## Creative Commons Attribution-ShareAlike 4.0 International License
+Shield: [![CC BY-SA 4.0][cc-by-sa-shield]][cc-by-sa]
+
+This work is licensed under a
+[Creative Commons Attribution-ShareAlike 4.0 International License][cc-by-sa].
+
+[![CC BY-SA 4.0][cc-by-sa-image]][cc-by-sa]
+
+[cc-by-sa]: http://creativecommons.org/licenses/by-sa/4.0/
+[cc-by-sa-image]: https://licensebuttons.net/l/by-sa/4.0/88x31.png
+[cc-by-sa-shield]: https://img.shields.io/badge/License-CC%20BY--SA%204.0-lightgrey.svg
