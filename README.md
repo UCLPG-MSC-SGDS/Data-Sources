@@ -15,7 +15,7 @@ The shapefiles can be downloaded from [Global Administrative Areas Database (GAD
 [gadm]: https://gadm.org/download_country.html
 
 ## Rasters
-All gridded datasets have been prepared, resampled and standardised to a uniform resolution (i.e., 2.5 mins (equivalent to 4.5 kms)) 
+All gridded datasets have been prepared, resampled and standardised to a uniform resolution (i.e., 2.5 arcmins (equivalent to 4.5 km)) 
 
 1.) Brazilian population density in 2013 (Brazil Population Density 2013.tif) <br/>
 2.) Brazilian urbanisation in 2013 (Brazil Urbanisation 2013.tif) <br/>
