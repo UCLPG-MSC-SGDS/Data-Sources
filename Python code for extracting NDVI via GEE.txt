@@ -1,0 +1,36 @@
+//Script for extracting NDVI via Google Earth Engine
+
+var NDVI_dataset: ImageCollection MODIS/061/MOD13A1
+var TILES: Table users/username/Tiled_Region_Brazil
+
+// Map.addLayer(TILES, {},'Tile Areas');
+
+var i;
+
+for (i=1; i < 18; i++){
+  
+var tile_selected = (TILES)
+.filter(ee.Filter.eq("IDnumber", i));
+
+// Map.addLayer(tile_selected, {},'Selected Area');
+// USE::: MOD13A1.061 Terra Vegetation Indices 16-Day Global 500m
+
+// filter the data by date from 2013-01-01 to 2013-12-31
+NDVI_dataset = NDVI_dataset.filterDate('2013-01-01', '2013-12-31');
+
+// extract NDVI
+var NDVI = NDVI_dataset.select('NDVI');
+
+// average out the images between the date range
+NDVI = NDVI.reduce(ee.Reducer.mean());
+
+// clip averaged image to size of study area with shapefile
+NDVI = NDVI.clip(tile_selected);
+
+// Visualise
+Map.addLayer(NDVI, {min: 0.0, max: 10000.0, palette: ['black', 'green']}, 'NDVI: Selected Area');
+
+Export.image.toDrive(
+  {image: NDVI, scale: 4630.5, region: tile_selected, description: 'Brazil_tile_'+[i],
+  crs: 'EPSG:4326', maxPixels: 100000000,});
+}
