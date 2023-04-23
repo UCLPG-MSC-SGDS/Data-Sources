@@ -57,6 +57,13 @@ The occurrence dataset used in this paper was originally from the [Global Compen
 [gbif]: https://www.gbif.org/dataset/d4eb19bc-fdce-415f-9a61-49b036009840
 [aedes]: https://www.nature.com/articles/sdata201535
 
+#### Script files
+1.) R code for preparing all spatial datasets (RStudio) <br/>
+2.) Python code for extracting NDVI via Google Earth Engine (Python and GEE Code Editor) <br/>
+3.) R code for MAXENT analysis and outputs (RStudio)
+
+The first two scripts are available for users for perusal to see what was behind the data cleaning and extraction processes in RStudio and GEE. The raw datasets were no provided as their storage size exceeds 150MB. Processed datasets have been included to this repository - please follow the instructions in the third script to reproduce the results shown in our research article in RStudio.  
+
 #### Creative Commons Attribution-ShareAlike 4.0 International License
 Shield: [![CC BY-SA 4.0][cc-by-sa-shield]][cc-by-sa]
 
