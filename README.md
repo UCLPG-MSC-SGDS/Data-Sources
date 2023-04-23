@@ -1,4 +1,4 @@
-#Coalescing disparate data sources for the geospatial prediction of mosquito abundance, using Brazil as a motivating case study
+# Coalescing disparate data sources for the geospatial prediction of mosquito abundance, using Brazil as a motivating case study
 
 This paper has been accepted in the [Frontiers in Tropical Diseases][accepted]. The final, formatted version of the article will be published soon.
 
@@ -6,7 +6,7 @@ This paper has been accepted in the [Frontiers in Tropical Diseases][accepted]. 
 
 <br/>This repository contains the datasets used to produce the results for the above titled research article. These were provided as supplementary materials and were made freely available through our GitHub repository. Please note that all datasets used for this analysis are open source. All links and references to the datasets used for this analysis were explicitly mentioned in our research article. Nevertheless, we provide the location(s) of where they can be accessed and downloaded:
 
-##Shapefiles
+## Shapefiles
 1.) Level 0: Country's border for Brazil (gadm36_BRA_0.shp) <br/>
 2.) Level 1: Boundaries for the 27 states in Brazil (gadm36_BRA_1.shp)
 
@@ -14,7 +14,7 @@ The shapefiles can be downloaded from [Global Administrative Areas Database (GAD
 
 [gadm]: https://gadm.org/download_country.html
 
-##Rasters
+## Rasters
 All gridded datasets have been prepared, resampled and standardised to a uniform resolution (i.e., 2.5 arcmins (equivalent to 4.5 km)) 
 
 1.) Brazilian population density in 2013 (Brazil Population Density 2013.tif) <br/>
@@ -47,7 +47,7 @@ We used the MOD13A1.061 Terra Vegetation Indices 16-Day Global 500m to compute t
 [gee]: https://earthengine.google.com
 [usgs]: https://earthexplorer.usgs.gov/
 
-##Point dataset
+## Point dataset
 1.) Aedes aegypti occurrence dataset for Brazil in 2013 (Aedes Occurrences in 2013.csv)
 
 The dataset used in this paper was originally from the [Global Compendium of the Aedes species project][aedes] which is open source database and accessible via [Global Biodiversity Information Facility (GBIF)][gbif]
@@ -55,7 +55,7 @@ The dataset used in this paper was originally from the [Global Compendium of the
 [gbif]: https://www.gbif.org/dataset/d4eb19bc-fdce-415f-9a61-49b036009840
 [aedes]: https://www.nature.com/articles/sdata201535
 
-##Creative Commons Attribution-ShareAlike 4.0 International License
+## Creative Commons Attribution-ShareAlike 4.0 International License
 Shield: [![CC BY-SA 4.0][cc-by-sa-shield]][cc-by-sa]
 
 This work is licensed under a
