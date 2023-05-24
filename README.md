@@ -1,12 +1,11 @@
 # Coalescing disparate data sources for the geospatial prediction of mosquito abundance, using Brazil as a motivating case study
 
-Anwar Musah*, Ella Browning, Aisha Aldosery, Iuri Valerio Graciano Borges, Tercio Ambrizzi, Merve Tunali, Selma Basibüyük, Orhan Yenigün, Giselle Machado Magalhaes Moreno, Clarisse Lins de Lima, Ana Clara Gomes da Silva, Wellington Pinheiro dos Santos, Tiago Massoni, Luiza Cintra Campos and Patty Kostkova
-
-**Musah et al. (2023) _Front Trop Dis_. 4:1039735; DOI: 10.3389/fitd.1039735/**
+**Citation:** Musah A, Browning E, Aldosery A, Valerio Graciano Borges I, Ambrizzi T, Tunali M, Bas¸ibüyük S, Yenigün O, Moreno GMM, de Lima CL, da Silva ACG, dos Santos WP, Massoni T, Campos LC and Kostkova P. (2023). Coalescing disparate data sources for the geospatial prediction of mosquito abundance, using Brazil as a motivating case study. Front. Trop. Dis 4:1039735. doi: 10.3389/fitd.2023.1039735
 
 ## Information
-This paper has been accepted in the [Frontiers in Tropical Diseases][accepted]. The final, formatted version of the article will be published soon. This repository contains the datasets used to reproduce the results for the above titled research article. These were provided as supplementary materials and were made freely available through our GitHub repository. Refer to the R script labelled as "**R code for MAXENT analysis and outputs.R**" in order to reproduce the analysis of this paper in RStudio. Please note that all datasets used for this analysis are open source. All links and references to the datasets used for this analysis were explicitly mentioned in our research article. Nevertheless, we provide the location(s) of where they can be accessed and downloaded:
+This paper has been featured as an original research article in [Frontiers in Tropical Diseases][accepted]. This repository contains all processed datasets used to reproduce the results featured in the above titled research article. Please refer to the R script labelled as "**R code for MAXENT analysis and outputs.R**" in order to reproduce the analysis of this paper in RStudio. Please note that all datasets used for this analysis are open source. If you have any questions - feel free to ask by sending an email on [a.musah@ucl.ac.uk][email]. Please note that all links and references to the datasets used for this analysis were explicitly mentioned in our research article. Nevertheless, we provide the location(s) of where they can be accessed and downloaded:
 
+[email]: a.musah@ucl.ac.uk
 [accepted]: https://www.frontiersin.org/articles/10.3389/fitd.2023.1039735/abstract
 
 #### Shapefiles
