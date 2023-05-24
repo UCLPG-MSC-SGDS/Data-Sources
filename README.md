@@ -1,5 +1,6 @@
-# Dataset for Research Article: 
-# Coalescing disparate data sources for the geospatial prediction of mosquito abundance, using Brazil as a motivating case study
+# Datasets: Coalescing disparate data sources for the geospatial prediction of mosquito abundance, using Brazil as a motivating case study
+
+Anwar Musah*, Ella Browning, Aisha Aldosery, Iuri Valerio Graciano Borges, Tercio Ambrizzi, Merve Tunali, Selma Basibüyük, Orhan Yenigün, Giselle Machado Magalhaes Moreno, Clarisse Lins de Lima, Ana Clara Gomes da Silva, Wellington Pinheiro dos Santos, Tiago Massoni, Luiza Cintra Campos and Patty Kostkova
 
 **(2023) _Front Trop Dis_. 4:1039735** <br/> 
 **DOI: 10.3389/fitd.1039735/**
