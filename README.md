@@ -1,4 +1,4 @@
-# Datasets: Coalescing disparate data sources for the geospatial prediction of mosquito abundance, using Brazil as a motivating case study
+# Coalescing disparate data sources for the geospatial prediction of mosquito abundance, using Brazil as a motivating case study
 
 Anwar Musah*, Ella Browning, Aisha Aldosery, Iuri Valerio Graciano Borges, Tercio Ambrizzi, Merve Tunali, Selma Basibüyük, Orhan Yenigün, Giselle Machado Magalhaes Moreno, Clarisse Lins de Lima, Ana Clara Gomes da Silva, Wellington Pinheiro dos Santos, Tiago Massoni, Luiza Cintra Campos and Patty Kostkova
 
