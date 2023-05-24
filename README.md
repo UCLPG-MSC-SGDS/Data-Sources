@@ -1,4 +1,5 @@
-# Dataset for Research Article: Coalescing disparate data sources for the geospatial prediction of mosquito abundance, using Brazil as a motivating case study
+# Dataset for Research Article: 
+# Coalescing disparate data sources for the geospatial prediction of mosquito abundance, using Brazil as a motivating case study
 
 **(2023) _Front Trop Dis_. 4:1039735** <br/> 
 **DOI: 10.3389/fitd.1039735/**
